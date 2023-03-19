@@ -4,6 +4,7 @@ function tableCalculation() {
 
     if(numberInput.length == 0) {
         alert('[ERRO] IMPOSSÍVEL GERAR A TABUADA [ERRO]');
+        return;
     }
     
     numberInput = Number(numberInput);
